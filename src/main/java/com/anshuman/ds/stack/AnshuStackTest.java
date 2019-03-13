@@ -13,10 +13,15 @@ public class AnshuStackTest {
         stack.push(6);
         stack.push(7);
 
-        stack.pop();
-        stack.pop();
-        stack.pop();
-        stack.pop();
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
         System.out.println(stack.peek());
+
+        System.out.println(stack.isEmpty());
     }
 }
