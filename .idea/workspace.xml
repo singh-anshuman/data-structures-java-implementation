@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5fc967-2ce6-41f6-bcab-d74e425e5a53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/AnshuLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/linked-list.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-list/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/AnshuLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/AnshuLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anshuman/ds/linkedList/AnshuLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anshuman/ds/linkedList/AnshuLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anshuman/ds/linkedList/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anshuman/ds/linkedList/LinkedListTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,26 +27,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/AnshuLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="179">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="e#119#120#0" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#2185#2186#0" expanded="true" />
+                <element signature="e#2227#2228#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="200">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -65,6 +61,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new N</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,8 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552423448862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552502686207" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/anshuman/ds" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -173,18 +177,20 @@
       <option name="presentableId" value="Default" />
       <updated>1552420444727</updated>
       <workItem from="1552420455644" duration="1662000" />
-      <workItem from="1552422157652" duration="1289000" />
+      <workItem from="1552422157652" duration="1780000" />
+      <workItem from="1552494911318" duration="180000" />
+      <workItem from="1552501010555" duration="1673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2951000" />
+    <option name="totallyTimeSpent" value="5295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1004" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26100966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -226,23 +232,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/AnshuLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="179">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="e#119#120#0" expanded="true" />
             <element signature="e#146#147#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
             <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/linkedList/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

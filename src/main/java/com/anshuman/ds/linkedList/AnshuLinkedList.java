@@ -20,12 +20,16 @@ public class AnshuLinkedList {
         }
     }
 
-    public void insert(String value) {
-        Node newNode = new Node();
-        newNode.setValue(value);
+    public void insertAtBeginnning(String value) {
+        Node node = new Node(value);
+        node.setNext(head);
+        head = node;
+    }
 
-        if(null==head) {
-            head = newNode;
+    public void insertAtEnd(String value) {
+
+        if(head==null) {
+            head = new Node(value);
         } else {
             Node node = head;
 
@@ -33,17 +37,17 @@ public class AnshuLinkedList {
                 node = node.getNext();
             }
 
-            node.setNext(newNode);
+            node.setNext(new Node(value));
         }
     }
 
     public void removeByValue(String value) {
-        if(null!=head) {
+        if(null!=head)  {
             if(head.getValue().equals(value)) {
                 head = head.getNext();
             } else {
                 Node prevNode = head;
-                Node node = head.getNext();
+                Node node = prevNode.getNext();
 
                 while(node!=null) {
                     if(value.equals(node.getValue())) {
@@ -55,12 +59,40 @@ public class AnshuLinkedList {
                 }
             }
         }
+
+    }
+
+    public void removeByPosition(int position) {
+        if(head!=null) {
+            if(position==0) {
+                head = head.getNext();
+            } else {
+                Node prevNode = head;
+                Node node = prevNode.getNext();
+
+                int index=1;
+
+                while(index!=position && node!=null) {
+                    prevNode = node;
+                    node = node.getNext();
+                    index++;
+                }
+
+                if(node!=null) {
+                    prevNode.setNext(node.getNext());
+                }
+            }
+        }
     }
 
     public class Node {
         private String value;
 
         private Node next;
+
+        public Node(String value) {
+            this.value = value;
+        }
 
         public String getValue() {
             return value;

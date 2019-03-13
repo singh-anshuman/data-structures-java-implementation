@@ -6,15 +6,22 @@ public class LinkedListTest {
 
         AnshuLinkedList linkedList = new AnshuLinkedList();
 
-        linkedList.insert("First");
-        linkedList.insert("Second");
-        linkedList.insert("Third");
-        linkedList.insert("Fourth");
-        linkedList.insert("Fifth");
+        linkedList.insertAtEnd("First");
+        linkedList.insertAtEnd("Second");
+        linkedList.insertAtEnd("Third");
+        linkedList.insertAtEnd("Fourth");
+        linkedList.insertAtEnd("Fifth");
 
         linkedList.traverse();
 
         linkedList.removeByValue("First");
+        linkedList.removeByValue("Second");
+
+        linkedList.removeByPosition(0);
+
+        linkedList.insertAtBeginnning("Zero");
+
+        System.out.println();
 
         linkedList.traverse();
 
