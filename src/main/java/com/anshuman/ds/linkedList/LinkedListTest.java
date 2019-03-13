@@ -19,7 +19,9 @@ public class LinkedListTest {
 
         linkedList.removeByPosition(0);
 
-        linkedList.insertAtBeginnning("Zero");
+        linkedList.push("Zero");
+
+        linkedList.insertAfter("Fourth","Sixth");
 
         System.out.println();
 

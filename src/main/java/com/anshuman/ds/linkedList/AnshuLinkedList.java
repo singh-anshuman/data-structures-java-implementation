@@ -20,7 +20,19 @@ public class AnshuLinkedList {
         }
     }
 
-    public void insertAtBeginnning(String value) {
+    public void insertAfter(String existingValue, String newValue) {
+        Node node = head;
+        while(node!=null) {
+            if(node.getValue().equals(existingValue)) {
+                Node newNode = new Node(newValue);
+                newNode.setNext(node.getNext());
+                node.setNext(newNode);
+            }
+            node = node.getNext();
+        }
+    }
+
+    public void push(String value) {
         Node node = new Node(value);
         node.setNext(head);
         head = node;
