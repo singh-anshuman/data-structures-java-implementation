@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5fc967-2ce6-41f6-bcab-d74e425e5a53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/queue/AnshuQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/queue/AnshuQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anshuman/ds/stack/AnshuStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anshuman/ds/stack/AnshuStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/anshuman/ds/stack/AnshuStackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anshuman/ds/stack/AnshuStackTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,24 +57,34 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-              </folding>
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/queue/AnshuQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStackTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/queue/AnshuQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="400">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -133,6 +139,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anshuman/ds/queue/AnshuQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anshuman/ds/queue/AnshuQueueTest.java" />
       </list>
     </option>
   </component>
@@ -143,7 +151,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1004" />
@@ -195,7 +203,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ds" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552508550318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552941251182" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/anshuman/ds" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -223,13 +231,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnshuLLStackTest">
+  <component name="RunManager" selected="Application.AnshuQueueTest">
     <configuration name="AnshuLLStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anshuman.ds.stack.AnshuLLStackTest" />
       <module name="data-structures-java-implementation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.anshuman.ds.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnshuQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anshuman.ds.queue.AnshuQueueTest" />
+      <module name="data-structures-java-implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anshuman.ds.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,6 +286,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnshuQueueTest" />
         <item itemvalue="Application.AnshuLLStackTest" />
         <item itemvalue="Application.AnshuStackTest" />
         <item itemvalue="Application.LinkedListTest" />
@@ -287,18 +309,20 @@
       <workItem from="1552501010555" duration="1979000" />
       <workItem from="1552503015917" duration="1167000" />
       <workItem from="1552505983778" duration="1686000" />
-      <workItem from="1552507795739" duration="753000" />
+      <workItem from="1552507795739" duration="1123000" />
+      <workItem from="1552714874151" duration="25000" />
+      <workItem from="1552940340443" duration="893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9207000" />
+    <option name="totallyTimeSpent" value="10495000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1004" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1004" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26852846" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27712137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,6 +388,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -378,25 +409,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/stack/AnshuLLStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/queue/AnshuQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/ds/queue/AnshuQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
